@@ -1,10 +1,10 @@
-import Container from "./pages/container";
-import Footer from "./pages/footer";
+import Footer from "./pages/Footer";
+import Home from "./pages/home";
 import DotGrid from "./components/DotGrid";
 function App() {
   return (
     <>
-      <div className="absolute top-0 right-0 left-0 bottom-0 bg-white w-full h-full">
+      <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-full">
         <DotGrid
           dotSize={5}
           gap={15}
@@ -17,7 +17,7 @@ function App() {
           returnDuration={1.5}
         />
       </div>
-      <Container></Container>
+      <Home></Home>
       <Footer></Footer>
     </>
   );
