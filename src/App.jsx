@@ -1,10 +1,12 @@
 import Footer from "./pages/Footer";
 import Home from "./pages/home";
 import DotGrid from "./components/DotGrid";
+import Navbar from "./pages/navbar";
 function App() {
   return (
     <>
-      <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-full">
+      <div className="absolute top-0 right-0 left-0 bg-black bottom-0 w-full h-full">
+        <Navbar></Navbar>
         <DotGrid
           dotSize={5}
           gap={15}
