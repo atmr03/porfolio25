@@ -9,7 +9,10 @@ const items = [
 ];
 function Navbar() {
   return (
-    <div style={{ height: "600px", position: "relative" }}>
+    <div
+      className="text-center items-center flex justify-center"
+      style={{ height: "100px", position: "relative" }}
+    >
       <GooeyNav
         items={items}
         particleCount={15}
