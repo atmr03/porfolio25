@@ -5,7 +5,7 @@ import Navbar from "./pages/navbar";
 function App() {
   return (
     <div className="bg-black">
-      <div className="bg-black">
+      <div className="bg-blue-600">
         <Navbar></Navbar>
       </div>
       <Home></Home>

@@ -2,7 +2,7 @@ import React from "react";
 function Button(props) {
   return (
     <>
-      <button>{props.btn}</button>
+      <button className="bg-white p-10">{props.btn}</button>
     </>
   );
 }
