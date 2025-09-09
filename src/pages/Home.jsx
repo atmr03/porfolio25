@@ -13,9 +13,9 @@ function Home() {
   return (
     <>
       <div className="flex justify-between items-center p-10 px-56 h-[51rem]">
-        <div className="flex flex-col gap-36">
+        <div className="flex flex-col">
           <TextType
-            className="text-8xl w-[60rem]"
+            className="text-8xl w-[60rem] p-20"
             text={[
               "Hey 👋 i'm Mart Setepen Sinaga",
               "I'M a Full Stack Devoloper",
@@ -27,7 +27,13 @@ function Home() {
             cursorCharacter="|"
           />
           <div>
-            <Button btn="click" className="flex "></Button>
+            <Button btn="click" className="flex fixed h-screen"></Button>
+          </div>
+          <div>
+            <Button btn="Download CV"></Button>
+          </div>
+          <div>
+            <Button btn="View CV"></Button>
           </div>
         </div>
         <TiltedCard
