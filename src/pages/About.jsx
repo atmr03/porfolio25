@@ -5,6 +5,7 @@ import profil from "@/assets/profil.jpg";
 import Button from "@/components/Button";
 import BlurText from "@/components/BlurText";
 import LogoLoop from "@/components/LogoLoop";
+import AnimatedContent from "@/components/AnimatedContent";
 import {
   SiReact,
   SiNextdotjs,

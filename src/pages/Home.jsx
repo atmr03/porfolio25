@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="flex flex-col gap-10 justify-center text-center items-center p-10 px-56 h-[51rem]">
         <TextType
-          className="text-5xl"
+          className="text-6xl"
           text={["Hi, 👋 i'm Mart", "Full Stack Developer"]}
           typingSpeed={75}
           pauseDuration={1500}
