@@ -54,7 +54,7 @@ const handleAnimationComplete = () => {
 function About() {
   return (
     <>
-      <div className="flex justify-between items-center p-10 px-56 h-[51rem]">
+      <div className="flex justify-between items-center p-10 px-56 h-[51rem] ">
         <div className="flex flex-col">
           <BlurText
             text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus autem, dicta perspiciatis eligendi sunt modi aliquid illum! Saepe, delectus consectetur?"
@@ -66,6 +66,7 @@ function About() {
           />
         </div>
         <TiltedCard
+          className="animate-fadeInUp"
           imageSrc={profil}
           altText="MART"
           captionText="MART"

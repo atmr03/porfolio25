@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@/components/Button";
 import TextType from "@/components/TextType";
+import AnimatedContent from "@/components/AnimatedContent";
 function Home() {
   return (
     <>
