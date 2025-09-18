@@ -4,6 +4,7 @@ import Carousel from "@/components/Carousel";
 function Acive() {
   return (
     <>
+      <h1 className="text-center pb-40 text-white">My Acivement</h1>
       <div style={{ height: "600px", position: "relative" }}>
         <div className="flex gap-10 justify-center hei">
           <Carousel
