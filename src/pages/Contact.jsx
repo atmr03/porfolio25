@@ -1,5 +1,7 @@
 import { useState } from "react";
-
+import { HiOutlineMail } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -83,6 +85,17 @@ const Contact = () => {
               Kirim
             </button>
           </form>
+        </div>
+      </div>
+      <div className="flex justify-center gap-14 pb-20 text-white">
+        <div>
+          <HiOutlineMail className="text-6xl text-blue-300 cursor-pointer"></HiOutlineMail>
+        </div>
+        <div>
+          <FaGithub className="text-6xl text-blue-300 cursor-pointer"></FaGithub>
+        </div>
+        <div>
+          <FaTwitter className="text-6xl text-blue-300 cursor-pointer"></FaTwitter>
         </div>
       </div>
     </>
