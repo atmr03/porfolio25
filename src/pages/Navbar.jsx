@@ -1,14 +1,15 @@
 import React from "react";
 import GooeyNav from "@/components/GooeyNav";
-
+import About from "./About";
 // update with your own items
 const items = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: <About id="about"></About> },
   { label: "About", href: "#" },
   { label: "Projeck", href: "#" },
   { label: "Achievement", href: "#" },
   { label: "Contact", href: "#" },
 ];
+
 function Navbar() {
   return (
     <div

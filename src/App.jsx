@@ -4,12 +4,14 @@ import About from "./pages/About";
 import Projeck from "./pages/Projeck";
 import Acive from "./pages/Acive";
 import Contact from "./pages/Contact";
+import TargetCursor from "./components/TargetCursor";
 import Footer from "./pages/Footer";
 import DotGrid from "./components/DotGrid";
 function App() {
   return (
     <>
       <div className="bg-black">
+        <TargetCursor spinDuration={2} hideDefaultCursor={true} />
         <div className="bg-blue-600">
           <Navbar></Navbar>
         </div>
