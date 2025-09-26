@@ -5,7 +5,10 @@ import AnimatedContent from "@/components/AnimatedContent";
 function Home() {
   return (
     <>
-      <div className="flex flex-col gap-10 justify-center text-center items-center p-10 px-56 h-[51rem]">
+      <div
+        id="home"
+        className="flex flex-col gap-10 justify-center text-center items-center p-10 px-56 h-[51rem]"
+      >
         <TextType
           className="text-6xl"
           text={["Hi, 👋 i'm Mart", "Full Stack Developer"]}

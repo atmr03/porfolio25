@@ -5,24 +5,49 @@ import Projeck from "./pages/Projeck";
 import Acive from "./pages/Acive";
 import Contact from "./pages/Contact";
 import TargetCursor from "./components/TargetCursor";
+import GooeyNav from "@/components/GooeyNav";
+
 import Footer from "./pages/Footer";
 import DotGrid from "./components/DotGrid";
+
+const items = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Projeck", href: "#projeck" },
+  { label: "Achievement", href: "#acive" },
+  { label: "Contact", href: "#contack" },
+];
+
 function App() {
   return (
-    <>
-      <div className="bg-black">
+    <div className="scroll-smooth">
+      <div className="bg-black ">
         <TargetCursor spinDuration={2} hideDefaultCursor={true} />
         <div className="bg-blue-600">
-          <Navbar></Navbar>
+          <div
+            className="scroll-smooth text-center items-center flex justify-center"
+            style={{ height: "100px", position: "relative" }}
+          >
+            <GooeyNav
+              items={items}
+              particleCount={15}
+              particleDistances={[90, 10]}
+              particleR={100}
+              initialActiveIndex={0}
+              animationTime={600}
+              timeVariance={300}
+              colors={[1, 2, 3, 1, 2, 3, 1, 4]}
+            />
+          </div>
         </div>
-        <Home></Home>
-        <About></About>
-        <Projeck></Projeck>
-        <Acive></Acive>
-        <Contact></Contact>
+        <Home id="home"></Home>
+        <About id="about"></About>
+        <Projeck id="projeck"></Projeck>
+        <Acive id="acive"></Acive>
+        <Contact id="contack"></Contact>
         {/* <Footer></Footer> */}
       </div>
-    </>
+    </div>
   );
 }
 

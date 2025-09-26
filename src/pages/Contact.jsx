@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div id="contack">
       <div className="flex justify-center items-center gap-64 pb-60">
         <div className="text-white">
           <h1>Let's Work Together</h1>
@@ -98,7 +98,7 @@ const Contact = () => {
           <FaTwitter className="text-6xl text-blue-300 cursor-pointer"></FaTwitter>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

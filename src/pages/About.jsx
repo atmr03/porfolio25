@@ -53,11 +53,8 @@ const handleAnimationComplete = () => {
 
 function About() {
   return (
-    <>
-      <div
-        id="about"
-        className="flex justify-between items-center p-10 px-56 h-[51rem] "
-      >
+    <div id="about">
+      <div className="flex justify-between items-center p-10 px-56 h-[51rem] ">
         <div className="flex flex-col">
           <BlurText
             text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus autem, dicta perspiciatis eligendi sunt modi aliquid illum! Saepe, delectus consectetur?"
@@ -105,7 +102,7 @@ function About() {
           ariaLabel="Technology partners"
         />
       </div>
-    </>
+    </div>
   );
 }
 

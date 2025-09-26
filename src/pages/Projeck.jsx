@@ -4,7 +4,7 @@ import SpotlightCard from "@/components/SpotlightCard";
 
 function Projeck() {
   return (
-    <>
+    <div id="projeck">
       <h1 className="text-center p-5 pb-48 text-white">My Projeck</h1>
       <div className="flex justify-center gap-11 h-[38em]">
         <SpotlightCard
@@ -32,7 +32,7 @@ function Projeck() {
           </div>
         </SpotlightCard>
       </div>
-    </>
+    </div>
   );
 }
 
