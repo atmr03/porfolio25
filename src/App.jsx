@@ -6,6 +6,7 @@ import Acive from "./pages/Acive";
 import Contact from "./pages/Contact";
 import TargetCursor from "./components/TargetCursor";
 import GooeyNav from "@/components/GooeyNav";
+import Tmblbtn from "./components/Tmblbtn";
 
 import Footer from "./pages/Footer";
 import DotGrid from "./components/DotGrid";
@@ -45,6 +46,7 @@ function App() {
         <Projeck id="projeck"></Projeck>
         <Acive id="acive"></Acive>
         <Contact id="contack"></Contact>
+        <Tmblbtn></Tmblbtn>
         {/* <Footer></Footer> */}
       </div>
     </div>
