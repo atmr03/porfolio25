@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div id="contack">
-      <div className="flex justify-center items-center gap-64 pb-60">
+      <div className="flex justify-center items-center gap-64 pb-60 pt-48">
         <div className="text-white">
           <h1>Let's Work Together</h1>
           <h2>Email : martstepen03@gmail.com</h2>

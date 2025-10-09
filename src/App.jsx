@@ -22,9 +22,9 @@ const items = [
 function App() {
   return (
     <div className="scroll-smooth">
-      <div className="bg-black ">
+      <div className="bg-black">
         <TargetCursor spinDuration={2} hideDefaultCursor={true} />
-        <div className="bg-blue-600">
+        <div className="bg-blue-600 fixed top-0 left-0 right-0 z-30">
           <div
             className="scroll-smooth text-center items-center flex justify-center"
             style={{ height: "100px", position: "relative" }}
