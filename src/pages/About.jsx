@@ -57,7 +57,7 @@ function About() {
       <div className="flex justify-between items-center p-10 px-56 h-[51rem] ">
         <div className="flex flex-col">
           <BlurText
-            text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus autem, dicta perspiciatis eligendi sunt modi aliquid illum! Saepe, delectus consectetur?"
+            text="'i am is a student 12, i like teknologi and new learn programing'"
             delay={150}
             animateBy="words"
             direction="top"

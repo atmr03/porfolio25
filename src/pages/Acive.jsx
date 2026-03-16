@@ -1,11 +1,22 @@
 import React from "react";
 import Carousel from "@/components/Carousel";
+import CircularGallery from "@/components/CircularGallery";
 
 function Acive() {
   return (
     <div id="acive">
       <h1 className="text-center pt-40 pb-40 text-white">My Acivement</h1>
       <div style={{ height: "600px", position: "relative" }}>
+        <CircularGallery
+          bend={1}
+          textColor="#ffffff"
+          borderRadius={0.05}
+          scrollSpeed={2}
+          scrollEase={0.05}
+        />
+      </div>
+
+      {/* <div style={{ height: "600px", position: "relative" }}>
         <div className="flex gap-10 justify-center hei">
           <Carousel
             baseWidth={400}
@@ -40,7 +51,7 @@ function Acive() {
             round={false}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

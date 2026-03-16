@@ -29,7 +29,7 @@ function App() {
         position: "relative",
       }}
     >
-      <PixelSnow
+      {/* <PixelSnow
         color="#fff"
         flakeSize={0.01}
         minFlakeSize={1.25}
@@ -38,12 +38,12 @@ function App() {
         density={0.3}
         direction={125}
         brightness={1}
-      />
+      /> */}
       <div className="bg-black">
         <TargetCursor spinDuration={2} hideDefaultCursor={true} />
         <div className="bg-blue-600 fixed top-0 left-0 right-0 z-30">
           <div
-            className="scroll-smooth text-center items-center flex justify-center sm:bg-yellow-300 sm:text-2xl"
+            className="scroll-smooth text-center items-center flex justify-center sm:text-2xl"
             // terakhir sini
             style={{ height: "100px", position: "relative" }}
           >
