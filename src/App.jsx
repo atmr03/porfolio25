@@ -65,8 +65,8 @@ function App() {
         <Projeck id="projeck"></Projeck>
         <Acive id="acive"></Acive>
         <Contact id="contack"></Contact>
-        <Tmblbtn></Tmblbtn>
-        {/* <Footer></Footer> */}
+        {/* <Tmblbtn></Tmblbtn>
+        <Footer></Footer> */}
       </div>
     </div>
   );
