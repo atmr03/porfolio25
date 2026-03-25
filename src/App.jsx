@@ -1,4 +1,4 @@
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Projeck from "./pages/Projeck";
 import Acive from "./pages/Acive";
